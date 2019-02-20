@@ -1,8 +1,10 @@
 
+mcuserver require linux x64
+and it static build there are no libraries depend
 
-tar xzvf mcuserver.x64.tar.gz
+tar xzf mcuserver.x64.tar.gz
 
-run at server
+run on server
 
 ./mcuserver.x64 -a
 
@@ -10,7 +12,12 @@ or add verbose debug 10 level
 
 ./mcuserver.x64 -a -d 10
 
-call from one more softphones(as example linphone) at mcuserver to any number with server ip
+call from one more softphones(tested with linphone) to mcuserver
 as example to 666@192.168.1.1
+there is 666 - any number
+192.168.1.1 server ip address
+all calls will be video and audio mix for participants
 
-allowed video - H264 and audio - speex(32000/16000/8000),pcmu,pcma,g722
+supported
+video - H264
+audio - speex(32000/16000/8000),pcmu,pcma,g722
