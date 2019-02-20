@@ -13,5 +13,5 @@ or add verbose debug 10 level
 call from three softphones(as example linphone) mcuserver to any number with server ip
 as example to 666@192.168.1.1
 
-allowed video - H264 and audio - speex,g711a,g711u,g722
+allowed video - H264 and audio - speex(32000/16000/8000),pcmu,pcma,g722
 limited to 3 participants
