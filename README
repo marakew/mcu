@@ -1,5 +1,6 @@
 
-tar xzvf mcuserver.tar.gz
+
+tar xzvf mcuserver.x64.tar.gz
 
 run at server
 
@@ -9,7 +10,8 @@ or add verbose debug 10 level
 
 ./mcuserver -a -d 10
 
-call from three softphone(as example linphone) mcuserver to any number with server ip
+call from three softphones(as example linphone) mcuserver to any number with server ip
 as example to 666@192.168.1.1
 
-allowed video - H264 only and audio - speex,g711a,g711u,g722
+allowed video - H264 and audio - speex,g711a,g711u,g722
+limited to 3 participants
