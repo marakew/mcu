@@ -1,0 +1,15 @@
+
+tar xzvf mcuserver.tar.gz
+
+run at server
+
+./mcuserver -a
+
+or add verbose debug 10 level
+
+./mcuserver -a -d 10
+
+call from three softphone(as example linphone) mcuserver to any number with server ip
+as example to 666@192.168.1.1
+
+allowed video - H264 only and audio - speex,g711a,g711u,g722
