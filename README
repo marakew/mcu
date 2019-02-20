@@ -10,7 +10,7 @@ or add verbose debug 10 level
 
 ./mcuserver.x64 -a -d 10
 
-call from three softphones(as example linphone) mcuserver to any number with server ip
+call from one more softphones(as example linphone) at mcuserver to any number with server ip
 as example to 666@192.168.1.1
 
 allowed video - H264 and audio - speex(32000/16000/8000),pcmu,pcma,g722
