@@ -16,7 +16,7 @@ call from one more softphones(tested with linphone) to mcuserver
 as example to 666@192.168.1.1
 there is 666 - any number
 192.168.1.1 server ip address
-all calls will be video and audio mix for participants
+all calls will be video and audio mix up to 9 participants
 
 supported
 video - H264
