@@ -1,5 +1,7 @@
+commerce version will be
 
 - update vp8
 - update rtp/rtcp library
-- av recording
-- add webrtc
+- av recording (mp4 ?)
+- add webrtc (srtp, ice, websocket/http - restapi ?)
+- rtmp streamig (youtube)
